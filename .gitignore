@@ -2,6 +2,7 @@ AirdropAutoFarmDev.lua
 SecureWebhookMethod.lua
 AirdropAutoFarmFreeDev.lua
 AirdropAutoFarmFreeObfuscate.lua
+AirdropAutoFarmObfuscate.lua
 HWID.lua
 
 selene.toml
