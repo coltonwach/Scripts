@@ -86,7 +86,7 @@ local uud = game:GetService("HttpService"):GenerateGUID(false)
 
 imgui.Name = "imgui"
 if syn then
---syn.protect_gui(imgui)
+syn.protect_gui(imgui)
 end
 imgui.Parent = game:GetService("CoreGui")
 
@@ -142,7 +142,7 @@ Toggle.Parent = Bar
 Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BackgroundTransparency = 1
 Toggle.Position = UDim2.new(0, 5, 0, -2)
-Toggle.Rotation = 90
+Toggle.Rotation = 0
 Toggle.Size = UDim2.new(0, 20, 0, 20)
 Toggle.ZIndex = 2
 Toggle.Image = ""
@@ -1065,7 +1065,7 @@ function library:AddWindow(title, options)
 					Resizer.Active = false
 
 					oldy = Window.AbsoluteSize.Y
-					Resize(open_close, {Rotation = 0}, options.tween_time)
+					--Resize(open_close, {Rotation = 0}, options.tween_time)
 					Resize(Window, {Size = UDim2.new(0, Window.AbsoluteSize.X, 0, 26)}, options.tween_time)
 					open_close.Parent:FindFirstChild("Base").Transparency = 1
 
@@ -1078,7 +1078,7 @@ function library:AddWindow(title, options)
 
 					Resizer.Active = true
 
-					Resize(open_close, {Rotation = 90}, options.tween_time)
+					--Resize(open_close, {Rotation = 90}, options.tween_time)
 					Resize(Window, {Size = UDim2.new(0, Window.AbsoluteSize.X, 0, oldy)}, options.tween_time)
 					open_close.Parent:FindFirstChild("Base").Transparency = 0
 
