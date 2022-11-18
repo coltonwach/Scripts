@@ -86,7 +86,7 @@ local uud = game:GetService("HttpService"):GenerateGUID(false)
 
 imgui.Name = uud
 if syn then
-syn.protect_gui(imgui)
+--syn.protect_gui(imgui)
 end
 imgui.Parent = game:GetService("CoreGui")
 
