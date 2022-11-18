@@ -84,7 +84,7 @@ local Input_Roundify_4px = Instance.new("ImageLabel")
 local Windows = Instance.new("Frame")
 local uud = game:GetService("HttpService"):GenerateGUID(false)
 
-imgui.Name = uud
+imgui.Name = "imgui"
 if syn then
 --syn.protect_gui(imgui)
 end
