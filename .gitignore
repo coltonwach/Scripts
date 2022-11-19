@@ -4,5 +4,6 @@ AirdropAutoFarmFreeDev.lua
 AirdropAutoFarmFreeObfuscate.lua
 AirdropAutoFarmObfuscate.lua
 HWID.lua
+TestUI.lua
 
 selene.toml
