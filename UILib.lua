@@ -1343,8 +1343,7 @@ function library:AddWindow(title, options)
 							function slider_data:Set(new_value)
 								new_value = tonumber(new_value) or 0
 
-								print(new_value-slider_options.min)
-								Resize(indicator, {Size = UDim2.new((new_value-slider_options.min)/slider_options.max or 0, 0, 0, 20)}, options.tween_time)
+								Resize(indicator, {Size = UDim2.new((new_value-slider_options.min)/(slider_options.max-slider_options.min) or 0, 0, 0, 20)}, options.tween_time)
 
 								local sel_value = new_value
 
