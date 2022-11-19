@@ -97,6 +97,7 @@ Prefabs.Size = UDim2.new(0, 100, 0, 100)
 Prefabs.Visible = false
 
 Label.Name = "Label"
+Label.AutomaticSize = Enum.AutomaticSize.Y
 Label.Parent = Prefabs
 Label.BackgroundColor3 = Color3.new(1, 1, 1)
 Label.BackgroundTransparency = 1

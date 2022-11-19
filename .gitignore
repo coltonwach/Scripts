@@ -5,5 +5,9 @@ AirdropAutoFarmFreeObfuscate.lua
 AirdropAutoFarmObfuscate.lua
 HWID.lua
 TestUI.lua
+givesnapshotid.js
+package.json
+node_modules
+package-lock.json
 
 selene.toml
