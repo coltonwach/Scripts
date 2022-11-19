@@ -1342,16 +1342,16 @@ function library:AddWindow(title, options)
 
 							function slider_data:Set(new_value)
 								new_value = tonumber(new_value) or 0
-								new_value = (new_value / slider_options["max"])
+								new_value = (((new_value >= 0 and new_value <= 100) and new_value) / 100)
 
 								Resize(indicator, {Size = UDim2.new(new_value or 0, 0, 0, 20)}, options.tween_time)
-								local p = math.floor((new_value or 0) * slider_options["max"])
+								local p = math.floor((new_value or 0) * 100)
 
 								local maxv = slider_options.max
 								local minv = slider_options.min
 								local diff = maxv - minv
 
-								local sel_value = math.floor(((diff / slider_options["max"]) * p) + minv)
+								local sel_value = math.floor(((diff / 100) * p) + minv)
 
 								value.Text = tostring(sel_value)
 								pcall(callback, sel_value)
