@@ -1773,8 +1773,8 @@ function library:AddWindow(title, options)
 							        elseif quote == true and c == "]" then
 							            quote = false
 							        end
-							        if quote == false and c == "\]" then
-							            highlight = highlight .. "\]"
+							        if quote == false and c == "\\]" then
+							            highlight = highlight .. "\\]"
 							        elseif c == "\n" then
 							            highlight = highlight .. "\n"
 									elseif c == "\t" then

@@ -9,5 +9,6 @@ givesnapshotid.js
 package.json
 node_modules
 package-lock.json
+stylua.toml
 
 selene.toml
