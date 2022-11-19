@@ -224,6 +224,10 @@ Tab.BackgroundColor3 = Color3.new(1, 1, 1)
 Tab.BackgroundTransparency = 1
 Tab.Size = UDim2.new(1, 0, 1, 0)
 Tab.Visible = false
+Tab.BorderSizePixel = 0
+Tab.CanvasSize = UDim2.new(0,0,0,0)
+Tab.ScrollBarThickness = 0
+Tab.AutomaticCanvasSize = Enum.AutomaticSize.Y
 
 UIListLayout_2.Parent = Tab
 UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
