@@ -10,5 +10,7 @@ package.json
 node_modules
 package-lock.json
 stylua.toml
+crouch.lua
+equip guns.lua
 
 selene.toml
