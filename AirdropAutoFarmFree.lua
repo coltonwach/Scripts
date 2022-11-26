@@ -1,3 +1,15 @@
+spawn(function()
+    local message = "UNDETECTED VERSION AVAILABLE IN OUR DISCORD SERVER https://dsc.gg/dropfarm"
+    local messageinst = Instance.new("Message", game:GetService("Players").LocalPlayer.PlayerGui)
+    local sgui = Instance.new("ScreenGui")
+    sgui.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+    local hint = Instance.new("Hint", game:GetService("Players").LocalPlayer.PlayerGui)
+    hint.Text = message
+    messageinst.Text = message
+    task.wait(20)
+    hint:Destroy()
+    messageinst:Destroy()
+end)
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
