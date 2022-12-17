@@ -45,3 +45,4 @@ if not _G.HWID then
 end
 
 setclipboard(_G.HWID)
+messagebox("Copied HWID to clipboard")
