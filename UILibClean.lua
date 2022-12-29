@@ -146,7 +146,7 @@ Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
 Toggle.Size = UDim2.new(0, 20, 0, 20)
 Toggle.ZIndex = 2
-Toggle.Image = ""
+Toggle.Image = "rbxassetid://4731371527"
 
 Base.Name = "Base"
 Base.Parent = Bar
@@ -455,7 +455,7 @@ Toggle_2.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle_2.BackgroundTransparency = 1
 Toggle_2.Position = UDim2.new(0, 5, 0, 0)
 Toggle_2.Size = UDim2.new(0, 20, 0, 20)
-Toggle_2.Image = ""
+Toggle_2.Image = "rbxassetid://4731371527"
 
 Objects_2.Name = "Objects"
 Objects_2.Parent = Folder
