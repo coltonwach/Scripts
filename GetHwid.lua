@@ -1,8 +1,3 @@
---[[
-  THIS SCRIPT IS PROTECTED WITH A WHITELIST
-ill obfuscate it when stupid moonsec comes back
-]]
-
 local ExecutorRequestFunc = nil
 if syn then
 	ExecutorRequestFunc = syn.request
@@ -49,8 +44,5 @@ if not _G.HWID then
 	end
 end
 
-if _G.UseExperimental == true then
-	loadstring(game:HttpGet("\104\116\116\112\58\47\47\49\50\57\46\56\48\46\53\54\46\49\57\52\58\51\48\48\48/paidscript?hwid=".._G.HWID.."&beta=true"))()
-else
-	loadstring(game:HttpGet("\104\116\116\112\58\47\47\49\50\57\46\56\48\46\53\54\46\49\57\52\58\51\48\48\48/paidscript?hwid=".._G.HWID))()
-end
+setclipboard(_G.HWID)
+messagebox("Copied HWID to clipboard")
